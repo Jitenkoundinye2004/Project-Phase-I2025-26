@@ -44,23 +44,10 @@ npm run dev
 
 The ML backend provides specialized AI services.
 
-```bash
-cd ml-backend
-# Recommended: Create a virtual environment
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# Mac/Linux:
-source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
 **Run Flask Server:**
 ```bash
+cd ml-backend
 python app.py
-# Server runs on http://localhost:5001
 ```
 
 ### 3. Frontend Setup (React)
@@ -86,9 +73,3 @@ npm run dev
 4. **Start Frontend**: Terminal 3 -> `cd frontend` -> `npm run dev`
 5. **Access App**: Open your browser and navigate to the frontend URL (usually `http://localhost:5173`).
 
-## Features
-
-- **Smart Seeding Analysis**: AI-driven recommendations for crops.
-- **Market Connectivity**: Connect farmers with buyers.
-- **Multilingual Support**: TTS integration for accessibility.
-- **User Management**: Secure authentication for farmers and admin.
